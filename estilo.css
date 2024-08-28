@@ -1,0 +1,81 @@
+
+    /*Definindo fundo da página com uma cor sólida*/
+    body{
+       background-color: rgb(210, 247, 252);   
+    }
+
+
+    /*estilizando os elementos h1 com cores e formatações*/
+    h1{
+        color: white;
+        display: block;
+    }
+
+    /*estilizando elemento h3 para ter sublinhado e alinhar ao centro*/
+    h3{
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    /*estilizando o elemento a como se fosse um botão*/
+    a{   
+        padding: 5px 30px;
+        font-size: 16px;
+        color: #fff;
+        background-color: #036cc3;
+        text-decoration: none;
+        transition: background-color 0.4s;
+    }
+
+    /*Quando o mouse estiver em cima do elemento(botões) ele altera cores e textos e os deixa sublinhado*/
+    a:hover{
+        text-decoration: underline;
+        background-color: rgb(255, 255, 255);
+        color: black;
+    }
+
+    /*Id criado para div do formulário centralizando e distanciando do topo*/
+    #formular{
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    /*Id que gerencia os estilo da tabela localizada no arquivo portfolio.html*/
+    #tab{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+    }
+
+    /*Classe para criar links de acesso do portfólio deixando um visual mais clean*/
+    .links{
+        color: blue;
+        background-color: white;
+        padding: 0px;
+    }
+
+    /*Classe utilizada na div inicial (cabeçalho com botões), estilizando cores, alinhamentos e tamanhos*/
+    .cabecalho{
+        background-color: rgb(5, 120, 173); 
+        text-align: center; 
+        height: 45px; 
+    }
+
+    /*Classe para estilizar o titulo secundário abaixo dos botões de navegação*/
+    .title{
+        background-color: black;
+        color: white;
+        margin-top: 45px;
+        display: block;
+    }
+
+    /*Definindo a fonte dos itens de uma lista como negrito e tamanho 18 pixels*/
+    .itens{
+        font-size: 18px;
+        font-weight:bold ;
+    }
+
+    /*Classe que define o plano de fundo das listas de informações index.html e academic.html*/
+    .list{
+        background-color: rgb(113, 191, 255);
+    }
+
